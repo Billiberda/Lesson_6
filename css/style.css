@@ -1,0 +1,186 @@
+@font-face {
+	font-family:"Comfortaa" ;
+	src: url("../fonts/Comfortaa-Bold.woff2") format("woff2"), url("../fonts/Comfortaa-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Comfortaa" ;
+	src: url("../fonts/Comfortaa-Light.woff2") format("woff2"), url("../fonts/Comfortaa-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Comfortaa" ;
+	src: url("../fonts/Comfortaa-Medium.woff2") format("woff2"), url("../fonts/Comfortaa-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Comfortaa" ;
+	src: url("../fonts/Comfortaa-Regular.woff2") format("woff2"), url("../fonts/Comfortaa-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Comfortaa" ;
+	src: url("../fonts/Comfortaa-SemiBold.woff2") format("woff2"), url("../fonts/Comfortaa-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"CircularStd" ;
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+.wrapper{
+overflow: hidden;
+min-height: 100%;
+}
+body {
+	font-family: "Comfortaa";
+	font-style: normal;
+	font-size: 16px;
+	font-weight: 400;
+}
+.head3 {
+	font-weight: 900;
+	font-size: 50px;
+	text-align: center;
+	border-top:10px solid rebeccapurple;
+	border-bottom:10px solid rebeccapurple;
+	border-right:10px solid rebeccapurple;
+	border-left: 10px solid rebeccapurple;
+	border-radius: 20px 30px 35px 15px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	background-color: orange;
+	box-shadow: 10px 10px 15px rebeccapurple, inset 10px 10px 10px rebeccapurple;
+	outline: 5px solid black;
+	opacity: 0.9;
+}
+.head4 {
+	color: yellow;
+	font-weight: 500;
+	font-size: 40px;
+	max-width: 500px;
+	margin: 0px auto 20px;
+	background-color: blueviolet;
+	border: 10px dotted yellow;
+	border-radius: 10px 20px 30px 20px;
+	outline: 10px dashed red;
+	opacity: 0.7;
+	line-height: 1.6;
+}
+ul {
+	font-size: 30px;
+	font-weight: 900;
+	color: green;
+	margin: 50px;
+	padding: 10px;
+	border: 10px solid green;
+	border-radius: 15px 15px 20px 20px;
+	outline: 10px dashed green;
+	box-shadow: -30px 30px 30px 40px, inset 10px 10px 10px 10px, 30px 30px 30px 30px;
+	opacity: 0.8;
+	line-height: 1.5;
+}
+li {
+	margin: 10px;
+	border: 10px solid orangered;
+	border-radius: 15px 15px 20px 20px;
+	outline: 10px dashed orange;
+	opacity: 0.9;
+	background-color: yellow;
+}
+.list {
+	background-color: yellow;
+	margin: 100px;
+	border-radius: 30px 30px 30px 30px;
+}
+p {
+	max-width: 500px;
+	margin: 0px auto 20px;
+	border: 10px dotted palevioletred;
+}
+.list_2 {
+	font-style: normal;
+	font-size: 16px;
+	font-weight: 400;
+	box-shadow: none;
+	margin: 8px;
+	line-height: 1.6;
+}
+.radius{
+	background-color: red;
+	border-radius: 20px 20px 20px 20px;
+}
+.image {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	margin-left: 500px;
+	margin-bottom: 15px;
+}
+.outline {
+	outline: 10px solid navajowhite;
+}
+.shadow {
+box-shadow: 10px 10px 10px 10px;
+}
+.opacity {
+	opacity: 0.5;
+}
+.link {
+	font-size: 50px;
+margin-left: 500px;
+border: 5px solid black;
+border-radius: 10px 10px 10px 10px;
+box-shadow: inset 10px 10px 10px 10px, 5px 5px 5px 5px;
+background-color: red;
+}
+.body {
+	font-family:"CircularStd";
+	font-weight: 400;
+	font-size: 20px;
+	font-style: normal;
+}
+.head {
+	font-size: 64px;
+	text-align: center;
+	line-height: 1.2;
+	color: #313131;
+	margin-top: 140px;
+	margin-bottom: 20px;
+}
+.text {
+	border: none;
+	text-align: center;
+	color: #5F5F5F;
+}
+.head2 {
+	margin-bottom: 20px;
+	text-align: center;
+	border: none;
+	color: #313131;
+}
+.text2 {
+	border: none;
+	text-align: center;
+	color: #5F5F5F;
+}
+.image2 {
+margin-left: 500px;
+}
